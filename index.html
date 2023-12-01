@@ -1,0 +1,51 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div>
+            <header>
+                <h3>TintPal🎨</h3>
+            </header>
+            <main>
+                <section>
+                    <form>
+                        <input type="color" id="color">
+                        <select id="color-schemes">
+                            <option value="monochrome">Monochrome</option>
+                            <option value="monochrome-dark">Monochrome Dark</option>
+                            <option value="monochrome-light">Monochrome Light</option>
+                            <option value="analogic">Analogic</option>
+                            <option value="complement">Complement</option>
+                            <option value="analogic-complement">Analogic Complement</option>
+                            <option value="triad">Triad</option>
+                            <option value="quad">Quad</option>
+                        </select>
+                        <button>Get Color Scheme</button>
+                    </form>
+                    <section id="color-scheme-container"></section>
+                    <div class="note">
+                        <img src="/cloud.png" alt="a fluffy cloud with a skyblue border" class="img">
+                        <p class="note-text">Click on color to copy 📝</p>
+                    </div>
+                </section>
+            </main>
+            <footer>
+                    <h3>Hii! How are you?</h3>
+                <div class="about-me">
+                    <div class="my-img-container">
+                        <img src="/me.jpg" alt="Palak Goyal facing toward camera and smiling" class="my-img">
+                    </div>
+                    <ul>
+                        <li><a href="https://www.freelancer.com/u/Palakgoyal0304" class="contact-link">Hire me on freelancer</a></li>
+                        <li><a href="https://github.com/palakkgoyal" class="contact-link">View my GitHub Profile</a></li>
+                    </ul>
+                </div>
+            </footer>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
