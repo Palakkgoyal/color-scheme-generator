@@ -38,7 +38,7 @@ form {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
+    margin-bottom: 0.2em;
 }
 
 input[type=color] {
@@ -92,13 +92,11 @@ form button {
 .note {
     position: relative;
     width: 200px;
-    margin-top: 60px;
-    margin-inline: auto;
+    margin: 0 auto 2em;
 }
 
 .img {
     width: 100%;
-    height: 100%;
 }
 
 .note-text {
@@ -115,7 +113,7 @@ form button {
 
 footer {
     padding: 20px;
-    margin: 20px;
+    margin: 7em auto 3em;
     display: flex;
     flex-direction: column;
     justify-content: center;

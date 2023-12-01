@@ -32,6 +32,6 @@ function renderColors(color) {
 }
 
 function copyToClipboard(color) {    
-    alert(`Yay!🥳 copied the color: ${color}`)
     navigator.clipboard.writeText(color) // only work with https otherwise throws error
+    alert(`Yay!🥳 copied the color: ${color}`)
 }
